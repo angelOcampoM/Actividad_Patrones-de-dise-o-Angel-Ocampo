@@ -1,3 +1,7 @@
+// PATRÓN: Factory
+// Los constructores factory de Aviso centralizan qué objeto construir
+// según el caso. La pantalla pide Aviso.paraMeta y no decide la variante.
+
 import 'package:flutter/material.dart';
 
 class Aviso {

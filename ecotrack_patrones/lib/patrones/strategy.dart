@@ -1,3 +1,7 @@
+// PATRÓN: Strategy
+// ReglaTope encapsula el algoritmo de validación. ValidadorLectura es la
+// misma clase para agua y luz: la regla se intercambia, no se copia un if.
+
 import 'package:flutter/material.dart';
 
 abstract class ReglaTope {

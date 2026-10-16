@@ -1,3 +1,7 @@
+// PATRÓN: Inyección de dependencias
+// PantallaRegistro recibe FuenteLab desde fuera y no la construye. Por eso
+// la misma pantalla sirve para LabEnMemoria y para LabQueFalla.
+
 import 'package:flutter/material.dart';
 
 abstract class FuenteLab {

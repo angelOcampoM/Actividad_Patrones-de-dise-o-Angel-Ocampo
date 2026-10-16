@@ -1,3 +1,7 @@
+// PATRÓN: Adapter
+// MedidorLegado devuelve texto ('12.5 L'). LectorMedidor traduce esa
+// interfaz ajena al double que la app espera, sin modificar el legado.
+
 import 'dart:math';
 
 import 'package:flutter/material.dart';

@@ -1,3 +1,7 @@
+// PATRÓN: Repository
+// La pantalla depende del contrato AlmacenConsumo, no de la lista en
+// memoria. Cambiar a SQLite o a una API no obliga a tocar la UI.
+
 import 'package:flutter/material.dart';
 
 abstract class AlmacenConsumo {

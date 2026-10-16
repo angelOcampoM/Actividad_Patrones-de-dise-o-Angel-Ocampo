@@ -1,3 +1,7 @@
+// PATRÓN: Observer
+// RegistroConsumo (ChangeNotifier) notifica a sus suscriptores sin
+// conocerlos. PanelHistorial y PanelMeta se redibujan al guardar.
+
 import 'package:flutter/material.dart';
 
 class RegistroConsumo extends ChangeNotifier {
